@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="weather.css">
+</head>
+<body>
+    <div id="preloader"></div>
+    <center>
+        <div class="body">
+            <div class="app-wrap">
+                <header>
+                    <input type="text" autocomplete="chrome-off" class="search-box" name="search" id="search" placeholder="Search for a city...">
+                    <div class="results show">
+                        <!-- <ul>
+                            <div class="suggest">some content</div>
+                            <div class="suggest">some content</div>
+                            <div class="suggest">some content</div>
+                            <div class="suggest">some content</div>
+                        </ul> -->
+                    </div>
+                
+                </header>
+                <main>
+                    <section class="location">
+                        <div class="city"></div>
+                        <div class="date"></div>
+                    </section>
+                    <div class="current">
+                        <div class="temp"><span></span></div>
+                        <div class="weather" id="weather"></div>
+                        <div class="hi-low"></div>
+                    </div>
+                </main>
+            </div>
+        </div>
+    </center>
+    <script src="weather.js"></script>
+</body>
+</html>
